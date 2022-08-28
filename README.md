@@ -11,10 +11,10 @@
 
   <h1 align="center">Python Projects</h1>
 
-  <p style="color:red;font-size:40px;">
+  <h2>
     Repository for all my smaller Python projects
     <br />
-  </p>
+  </h2>
 </div>
 
 
