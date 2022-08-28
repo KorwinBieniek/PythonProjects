@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='main.css') }}">
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+</head>
+<body>
+    <div class="background_image">
+        <h1> Library Management System </h1>
+        <div class="buttons">
+            <a class="button" href="{{ url_for('show_books') }}">Show Books</a>
+            <a class="button" href="{{ url_for('borrow_book') }}">Borrow Book</a>
+            <a class="button" href="{{ url_for('return_book') }}">Return Book</a>
+            <a class="button" href="{{ url_for('see_users') }}">See Users</a>
+            <a class="button" href="{{ url_for('add_user') }}">Add User</a>
+        </div>
+    </div>
+</body>
+</html>
