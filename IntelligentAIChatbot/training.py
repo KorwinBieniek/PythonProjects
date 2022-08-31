@@ -35,8 +35,8 @@ words = sorted(set(words))
 
 classes = sorted(set(classes))
 
-pickle.dump(words, open('words.pkl', 'wb'))
-pickle.dump(classes, open('classes.pkl', 'wb'))
+pickle.dump(words, open('../words.pkl', 'wb'))
+pickle.dump(classes, open('../classes.pkl', 'wb'))
 
 training = []
 output_empty = [0] * len(classes)
