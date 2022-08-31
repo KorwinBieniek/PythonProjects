@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}">
+    <meta charset="UTF-8">
+    <title>Show books</title>
+</head>
+<body>
+
+<table class="show_books_table">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Pages</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {% for bk in book %}
+        <tr>
+            <td>{{ bk.title }}</td>
+            <td>{{ bk.author }}</td>
+            <td>{{ bk.genre }}</td>
+            <td>{{ bk.pages }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<div class="buttons">
+    <a class="button" href="{{ url_for('main_page') }}">Back</a>
+</div>
+
+</body>
+</html>
