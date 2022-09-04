@@ -51,6 +51,25 @@ Wanted to store all my smaller Python projects into one repository so that it ca
 ## Roadmap
 
 - [x] ConwayGameOfLife
+- [x] AmazonForestFire
+- [x] CarRental
+- [x] IntelligentAIChatbot
+- [x] KeyTermsExtraction
+- [x] LibraryManagementSystem
+- [x] MemoryUsage
+- [x] TextGenerator
+- [x] TicTacToe
+- [x] bodyPerformanceData
+- [x] chat_room_socket
+- [x] income_classification
+- [x] playConnect4
+- [x] project_biai
+- [x] tournament_game_generator
+- [x] vehicle_detector
+- [ ] Typing Speed Checker
+- [ ] Self-Driving AI Car Simulation
+- [ ] Sorting Visualizer
+- [ ] Path Finding Visualizer
 
 See the [open issues](https://github.com/KorwinBieniek/PythonProjects/issues) for a full list of proposed features (and known issues).
 
